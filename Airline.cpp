@@ -55,7 +55,7 @@ int main() {
 	credentials.saveFirstName(firstNameVal);
 	cout << endl;
 	
-	cout << "The username is " << credentials.getUsername(); << endl;
+	cout << "The username is " << credentials.getUsername() << endl;
 
 	return 0;
 }
