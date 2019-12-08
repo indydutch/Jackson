@@ -4,7 +4,7 @@
 using namespace std;
 
 class Passenger {
-public:
+private:
 	string username;
 	string password;
 	string FirstName;
@@ -19,7 +19,7 @@ public:
 	string State;
 	string Country;
 	int ZipCode[20];*/
-
+public:
 	void saveUsername(string userVal) {
 		username = userVal;
 	}
