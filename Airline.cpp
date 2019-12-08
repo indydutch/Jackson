@@ -29,6 +29,9 @@ public:
 	void saveFirstName(string firstNameVal) {
 		FirstName = firstNameVal;
 	}
+	string getUsername(){
+		return username;	
+	}
 };
 
 int main() {
@@ -51,6 +54,8 @@ int main() {
 	cin >> firstNameVal;
 	credentials.saveFirstName(firstNameVal);
 	cout << endl;
+	
+	cout << "The username is " << credentials.getUsername(); << endl;
 
 	return 0;
 }
