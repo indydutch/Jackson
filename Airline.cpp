@@ -56,6 +56,11 @@ int main() {
 	cout << endl;
 	
 	cout << "The username is " << credentials.getUsername() << endl;
+	
+	ofstream myfile;
+	myfile.open("example.txt");
+	myfile << "Username: " << credentials.getUsername() << endl;
+	myfile.close();
 
 	return 0;
 }
